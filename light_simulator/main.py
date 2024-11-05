@@ -44,7 +44,7 @@ class LightSimulatorApp:
 
     def draw_interface(self):
         # Draws the interface for the incident, reflected, and refracted rays
-        self.canvas.create_line(225, 0, 225, 300, fill="gray", dash=(4, 4))  # Normal line
+        #self.canvas.create_line(225, 0, 225, 300, fill="gray", dash=(4, 4))  # Normal line
         self.canvas.create_line(0, 150, 450, 150, fill="#3498db", width=2)  # Boundary line between media
 
     def calculate(self):
